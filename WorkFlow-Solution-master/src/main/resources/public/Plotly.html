@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<body>
+
+<div id="myPlot" style="width:100%;max-width:700px"></div>
+
+
+
+<script>
+
+  var url = new URL(window.location.href);
+  var fname = url.searchParams.get('fname');
+  var lname = url.searchParams.get('lname');
+  var DOB = url.searchParams.get('DOB');
+  var p = document.createElement('p');
+  if (fname == null || lname == null || DOB == null) {
+    p.innerHTML = 'Error: Please fill out all fields.';
+  } else {
+    p.innerHTML = 'First name: ' + fname + '<br>Last name: ' + lname + '<br>Date of birth: ' + DOB;
+  }
+  document.body.appendChild(p);
+
+
+var xArrayExpenses = [3438,25382,26737,18685,22691,13706,10402,12039,3411,26110,9971,20821];
+var yArrayIncome = ["Jan-19770","Feb-29926","Mar-21500","Apr-29023","May-24486","Jun-29245","Jul-28474","Aug-25398","Sep-33953","Oct-30650","Nov-20149","Dec-30613"];
+
+// Define Data
+var data = [{
+  x: xArrayExpenses,
+  y: yArrayIncome,
+  type: "lines",
+  orientation: "h"
+}];
+
+// Define Layout
+var layout = {
+  xaxis: {range: [], title: "Expenses per Month"},
+  yaxis: {range: [], title: "Income per Month"},
+  title: "Customers Income and Expediture over a 12 Month period."
+};
+
+// Display using Plotly
+Plotly.newPlot("myPlot", data, layout);
+
+</script>
+</body>
+</html>

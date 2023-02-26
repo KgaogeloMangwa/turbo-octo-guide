@@ -1,0 +1,27 @@
+digraph "io.javalin:javalin-html:jar:1.0-SNAPSHOT" { 
+	"io.javalin:javalin-html:jar:1.0-SNAPSHOT" -> "io.javalin:javalin:jar:4.6.4:compile" ; 
+	"io.javalin:javalin-html:jar:1.0-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:1.7.32:compile" ; 
+	"io.javalin:javalin-html:jar:1.0-SNAPSHOT" -> "commons-io:commons-io:jar:2.11.0:compile" ; 
+	"io.javalin:javalin:jar:4.6.4:compile" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"io.javalin:javalin:jar:4.6.4:compile" -> "org.eclipse.jetty:jetty-server:jar:9.4.48.v20220622:compile" ; 
+	"io.javalin:javalin:jar:4.6.4:compile" -> "org.eclipse.jetty:jetty-webapp:jar:9.4.48.v20220622:compile" ; 
+	"io.javalin:javalin:jar:4.6.4:compile" -> "org.eclipse.jetty.websocket:websocket-server:jar:9.4.48.v20220622:compile" ; 
+	"io.javalin:javalin:jar:4.6.4:compile" -> "org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.5.32:compile" ; 
+	"org.eclipse.jetty:jetty-server:jar:9.4.48.v20220622:compile" -> "javax.servlet:javax.servlet-api:jar:3.1.0:compile" ; 
+	"org.eclipse.jetty:jetty-server:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-http:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty:jetty-server:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-io:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty:jetty-http:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-util:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty:jetty-webapp:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-xml:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty:jetty-webapp:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-servlet:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty:jetty-servlet:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-security:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty:jetty-servlet:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-util-ajax:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty.websocket:websocket-server:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty.websocket:websocket-common:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty.websocket:websocket-server:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty.websocket:websocket-client:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty.websocket:websocket-server:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty.websocket:websocket-common:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty.websocket:websocket-api:jar:9.4.48.v20220622:compile" ; 
+	"org.eclipse.jetty.websocket:websocket-client:jar:9.4.48.v20220622:compile" -> "org.eclipse.jetty:jetty-client:jar:9.4.48.v20220622:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.5.32:compile" -> "org.jetbrains.kotlin:kotlin-stdlib:jar:1.5.32:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.5.32:compile" -> "org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.5.32:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib:jar:1.5.32:compile" -> "org.jetbrains:annotations:jar:13.0:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib:jar:1.5.32:compile" -> "org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.5.32:compile" ; 
+ } 

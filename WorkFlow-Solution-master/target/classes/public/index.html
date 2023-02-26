@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Customer information</h1>
+
+<h2>Enter Customer information as follows:</h2>
+<form action="/Plotly.html" target="_blank" id="web-form">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="Bdate">Date of birth</label><br>
+    <input type="date" id="DOB" name="DOB"><br>
+
+    <button>Submit</button>
+</form>
+
+
+<h1>Upload files</h1>
+<form method="post" action="/upload-file" enctype="multipart/form-data">
+    <input type="file" name="files" multiple>
+    <button action="/Plotly.html" target="_blank" id="web-form">Upload</button>
+</form>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 40px auto;
+    }
+
+    select {
+        margin: 5px 0;
+    }
+
+    h1, h2, h3 {
+        margin-top: 1.5em;
+        margin-bottom: 5px;
+    }
+</style>
+
+
